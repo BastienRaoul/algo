@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  padding: 1em 0;
+  background-color: #286ed6;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+}
+
+header a.logo {
+  font-weight: bold;
+}
+
+nav {
+  height: calc(100vh - 3.3em);
+  overflow-y: scroll;
+}
+
+nav::-webkit-scrollbar {
+  width: 1px;
+}
+
+.cards {
+  float: left;
+  margin-top: 2em;
+  list-style-type: none;
+}
+
+.cards .card {
+  padding: 1em 2em;
+  margin: 1em;
+  cursor: pointer;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.2), 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12);
+          box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.2), 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.cards .card:hover {
+  -webkit-box-shadow: 0 2px 4px -1px #a8c5ef, 0 4px 5px 0 #a8c5ef, 0 1px 10px 0 #a8c5ef;
+          box-shadow: 0 2px 4px -1px #a8c5ef, 0 4px 5px 0 #a8c5ef, 0 1px 10px 0 #a8c5ef;
+}
+
+.cards .card h1 {
+  font-size: 20px;
+}
+
+.card-code {
+  width: 50%;
+  float: right;
+  padding: 1em 2em;
+  margin-top: 3em;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.2), 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12);
+          box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.2), 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12);
+  text-align: center;
+}
+
+.card-code input[type="text"] {
+  width: 60%;
+  letter-spacing: 1px;
+  border: 0;
+  padding: 3px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.card-code input[type="text"]:focus {
+  outline: none;
+}
+
+.card-code input[type="submit"] {
+  margin: 1em;
+  padding: 1em;
+  border-width: 0;
+  outline: none;
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+          box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+  background-color: #2ecc71;
+  color: #ecf0f1;
+  -webkit-transition: background-color 0.3s;
+  transition: background-color 0.3s;
+}
+
+.card-code input[type="submit"]:hover {
+  background-color: #27ae60;
+}
+
+.card-code #form_answer {
+  display: none;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+/*# sourceMappingURL=style.css.map */
