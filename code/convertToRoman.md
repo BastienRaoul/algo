@@ -37,3 +37,7 @@ function convertToRoman(num) {
 ```
 
 ### Example
+
+`convertToRoman(4)` should return "IV".
+
+`convertToRoman(649)` should return "DCXLIX".

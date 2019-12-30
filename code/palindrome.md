@@ -38,3 +38,7 @@ function palindrome(str) {
 ```
 
 ### Example
+
+`palindrome("eye")` should return true.
+
+`palindrome("1 eye for of 1 eye.")` should return false.

@@ -22,3 +22,7 @@ function sym(arr1, arr2) {
 ```
 
 ### Example
+
+`sym([1, 2, 3], [5, 2, 1, 4])` should return `[3, 4, 5]`.
+
+`sym([1, 1, 2, 5], [2, 2, 3, 5], [3, 4, 5, 5])` should return `[1, 4, 5]`.

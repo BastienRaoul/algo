@@ -29,3 +29,7 @@ function rot13(str) {
 ```
 
 ### Example
+
+`rot13("SERR PBQR PNZC")` should decode to `FREE CODE CAMP`
+
+`rot13("GUR DHVPX OEBJA SBK WHZCF BIRE GUR YNML QBT")` should decode to `THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG`

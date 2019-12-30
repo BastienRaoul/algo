@@ -23,3 +23,7 @@ function telephoneCheck(str) {
 ```
 
 ### Example
+
+`telephoneCheck("1 555-555-5555")` should return true.
+
+`telephoneCheck("1 555)555-5555")` should return false.
