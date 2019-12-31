@@ -19,17 +19,7 @@ function checkCashRegister(price, cash, cid) {
   let change = [];
   let cashInDrawer = 0;
   let index = 0;
-  const currencyUnit = {
-    "ONE HUNDRED": 100,
-    TWENTY: 20,
-    TEN: 10,
-    FIVE: 5,
-    ONE: 1,
-    QUARTER: 0.25,
-    DIME: 0.1,
-    NICKEL: 0.05,
-    PENNY: 0.01
-  };
+  const currencyUnit = {"ONE HUNDRED": 100, TWENTY: 20, TEN: 10, FIVE: 5, ONE: 1, QUARTER: 0.25, DIME: 0.1, NICKEL: 0.05, PENNY: 0.01};
   let changeToReturn = cash - price;
   let cidReverse = [...cid].reverse();
   cid.forEach(element => (cashInDrawer += element[1]));
