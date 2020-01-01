@@ -4,7 +4,7 @@ The bubble sort method starts at the beginning of an unsorted array and 'bubbles
 
 This method requires multiple iterations through the array and for average and worst cases has quadratic time complexity. While simple, it is usually impractical in most situations.
 
-**Instructions**: Write a function `bubbleSort` which takes an array of integers as input and returns an array of these integers in sorted order from least to greatest.
+**Instructions:** Write a function `bubbleSort` which takes an array of integers as input and returns an array of these integers in sorted order from least to greatest.
 
 ## Code
 
